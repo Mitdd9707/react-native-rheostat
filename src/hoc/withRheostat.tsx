@@ -327,9 +327,10 @@ const Style = StyleSheet.create({
     position: "relative",
   },
   handle: {
-    backgroundColor: "white",
-    width: "100%",
+    backgroundColor: "#000",
+    width: "50%",
     height: "100%",
+    marginLeft: "25%",
   },
   handleContainer: {
     zIndex: 3,
@@ -344,9 +345,10 @@ const Style = StyleSheet.create({
   },
   rheostatBackground: {
     // backgroundColor: '#fcfcfc',
-    borderColor: "#d8d8d8",
-    borderBottomWidth: 1,
+    borderColor: "#14181B",
+    borderBottomWidth: 2,
     borderTopWidth: 1,
+    zIndex: 2,
     position: "relative",
   },
   rheostatHorizontalBackground: {
